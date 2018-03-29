@@ -32,7 +32,7 @@ class FileTest {
     void add() {
         String element4 = "limonade";
         test.add(element4);
-        assertEquals(test.peek(), "limonade");
+        assertEquals(test.peek(), "café");
     }
 
     @Test
